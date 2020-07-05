@@ -3,15 +3,17 @@ body
 {
   background: url(/assets/img/sahaniHD.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
 }
 h1 {
-  color: rgb(240,100,7);
+  color: rgb(126, 28, 255);
   font-family: Roboto;
   font-size: 250%;
 }
 h2, h3 {
-  color: rgb(250, 100, 90);
+  color:rgb(126, 28, 255);
   font-family: Roboto;
   font-weight: light;
 }
@@ -19,7 +21,7 @@ body {
   margin: 2em;
 }
 body, input[type="text"], button {
-  color: rgb(238, 64, 20);
+  color: rgb(126, 28, 255);
   font-family: Cambria, Georgia;
 }
 /* everywhere else */

@@ -8,7 +8,7 @@ import { MessageService } from '../message.service';
   styleUrls: ['./foods.component.css']
 })
 export class FoodsComponent implements OnInit {
-  selectedFood: Food;
+
 
   foods: Food[];
 
@@ -16,11 +16,6 @@ export class FoodsComponent implements OnInit {
 
   ngOnInit() {
     this.getFoods();
-  }
-
-  onSelect(food: Food): void {
-    this.selectedFood = food;
-    this.messageService.add(`FoodsComponent: Selected food id=${food.id}`);
   }
 
   getFoods(): void {

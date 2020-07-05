@@ -16,4 +16,9 @@ export class FoodService {
     this.messageService.add('FoodService: fetched foods');
     return of(FOODS);
   }
+  getFood(id: number): Observable<Food> {
+    // TODO: send the message _after_ fetching the food
+    this.messageService.add(`FoodService: fetched food id=${id}`);
+    return of(FOODS.find(food => food.id === id));
+  }
 }
