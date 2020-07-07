@@ -8,12 +8,12 @@ body
   background-position: center;
 }
 h1 {
-  color: rgb(126, 28, 255);
+  color: #91df5a;
   font-family: Roboto;
   font-size: 250%;
 }
 h2, h3 {
-  color:rgb(126, 28, 255);
+  color: #91df5a;
   font-family: Roboto;
   font-weight: light;
 }
@@ -21,7 +21,7 @@ body {
   margin: 2em;
 }
 body, input[type="text"], button {
-  color: rgb(126, 28, 255);
+  color: #91df5a;
   font-family: Cambria, Georgia;
 }
 /* everywhere else */
