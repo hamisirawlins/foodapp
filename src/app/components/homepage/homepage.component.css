@@ -25,3 +25,14 @@
     margin-top: 70px;
     border-radius: 20px;
 }
+
+@media only screen and (max-width:900px) {
+    .row img {
+        margin-top: 10px;
+        width: 240px;
+        height: auto;
+    }
+    .subscribe {
+        margin-top: 10px;
+    }
+}
