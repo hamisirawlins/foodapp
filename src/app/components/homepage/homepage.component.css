@@ -1,0 +1,27 @@
+.row {
+    margin: initial!important;
+}
+
+.subscribe {
+    max-width: 500px;
+    margin-top: 90px;
+    padding: 30px;
+    background: #ff5100fd;
+    margin-bottom: 20px;
+}
+
+.subscribe a {
+    width: 200px;
+    display: block;
+    color: #ff5100fd;
+    background: #FFA833;
+    padding: 5px;
+    text-align: center;
+}
+
+.row img {
+    width: 300px;
+    height: auto;
+    margin-top: 70px;
+    border-radius: 20px;
+}
